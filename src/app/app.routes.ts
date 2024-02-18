@@ -12,7 +12,7 @@ import { ResetPasswordPageComponent } from './pages/security/reset-password-page
 export const routes: Routes = [
     {path:'', redirectTo:'/home', pathMatch:'full'},
     {path:'home', component:HomePageComponent},
-    {path:'product', component:ProductPageComponent},
+    {path:'products', component:ProductPageComponent},
     {path:'product-details/:id', component:ProductViewPageComponent},
     {path:'login', component:LoginPageComponent},
     {path:'signup', component:SignupPageComponent},
